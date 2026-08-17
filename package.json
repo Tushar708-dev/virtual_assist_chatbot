@@ -1,0 +1,21 @@
+{
+  "name": "ai-assistant-server",
+  "version": "1.0.0",
+  "description": "Backend for AI Virtual Assistant - Node.js, Express, MongoDB, NLP intent detection",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "natural": "^7.0.6",
+    "express-rate-limit": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
